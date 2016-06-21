@@ -1,0 +1,156 @@
+@font-face { font-family: game-font; src: url('../font/font-game.ttf'); } 
+
+
+* {
+    font-family: game-font;
+    margin:0px; padding:0px;
+    overflow:hidden;
+    position: absolute;
+    display: block;
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+/*body {
+        background-color: darkgoldenrod;
+}*/
+
+body {
+    background-color:lightblue;
+}
+
+game {
+    background-image: url(../images/background.png);
+    background-color: rebeccapurple;
+}
+
+character {
+    background-image: url(../images/character/bowl.gif);
+    background-repeat: no-repeat;
+    background-color: none;
+    /*width: 175px;
+    height: 175px;*/
+    width: 83px;
+    height: 58px;
+}
+
+apple {
+    background-image: url(../images/goodfood/apple.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+banana {
+    background-image: url(../images/goodfood/banana.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+hamburger {
+    background-image: url(../images/badfood/hamburger.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 37px;
+}
+
+fries {
+    background-image: url(../images/badfood/fries.gif);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+liveDiv {
+    background-image: url(../images/live.png);
+    width: 60px;
+    height: 60px;
+}
+
+score {
+    font-size: 32px;
+    left: 10px;
+    color: whitesmoke;
+}
+
+time {
+    font-size: 32px;
+    left: 85%;
+}
+
+scoreFeedback {
+    font-size: 26px;
+}
+
+#startWrapper {
+    width: 300px;
+    height: 360px;
+    margin: 0 auto;
+    padding-top: 100px;
+    top: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+input#playerInput {
+    height: 50px;
+    top: 175px;
+    font-size: 24px;
+    border: 5px solid #DC152C;
+    box-shadow: 0 10px 6px -6px #777;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+#startButton, #playAgainButton {
+    background-color:#DC152C;
+    color: white;
+    font-size: 30px;
+    font-family: game-font;
+    border: none;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    top:250px;
+    border-radius: 10px;
+    border:solid 5px whitesmoke;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+live {
+    background-image: url(../images/live.png);
+    width: 60px;
+    height: 60px;
+}
+
+gameOver {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 3;
+}
+
+gameOverTitle {
+    color: white;
+    font-size: 56px;
+    top: 0px;
+}
+
+gameOverText {
+    top: 70px;
+    font-size: 22px;
+    color: white;
+}
+
+instructionText {
+    font-size: 22px;
+    color: white;
+    top: 0px;
+    height: 200px;
+}
