@@ -195,7 +195,6 @@ var Game = (function () {
                 case 2:
                     console.log("Het is gewoon: " + _this.timer);
                     _this.addApple(9, 1000, 6);
-                    _this.addHamburger(299, 1000, 8);
                     break;
                 case 10:
                     console.log("Het is gewoon: " + _this.timer);
